@@ -1,0 +1,116 @@
+.content-section-1{
+    width: 100%;
+    height: 100%;
+}
+.content-section-1 .container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.content-section-1 .container .content-text{
+    margin-top: 60px;
+}
+.content-section-1 .container .content-text .col-text{
+    margin-bottom: 40px;
+}
+.content-section-1 .container .content-text .col-text div{
+    font-size: 48px;
+    font-weight: 800;
+}
+.content-section-1 .container .content-text .col-text div span{
+    color: #FF6000;
+}
+.content-section-1 .container .content-text .btn-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+}
+.content-section-1 .container .content-text .btn-col button{
+    width: 250px;
+    height: 48px;
+    margin-bottom: 30px;
+    border-radius: 40px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+.content-section-1 .container .content-text .btn-col button:nth-child(1){
+    background-color: #FF7B2B;
+    color: #FFFFFF;
+}
+.content-section-1 .container .content-text .btn-col button:nth-child(2){
+    border: 2px solid #FF6000;
+    color: #FF6000;
+}
+@media (max-width: 1200px){
+    .content-section-1 .container .content-text .col-text div{
+        font-size: 44px;
+    }
+}
+@media (max-width: 1120px){
+    .content-section-1 .container{
+        margin-top: 40px;
+    }
+    .content-section-1 .container .content-text .col-text div{
+        font-size: 40px;
+    }
+    .content-section-1 .container .col-img img{
+        width: 450px;
+    }
+        .content-section-1 .container .content-text{
+        margin-top: 30px;
+}
+}
+@media (max-width: 1020px){
+    .content-section-1 .container .content-text .col-text div{
+        font-size: 33px;
+    }
+    .content-section-1 .container .col-img img{
+        width: 400px;
+    }
+}
+@media (max-width: 800px){
+    .content-section-1 .container{
+        display: flex;
+       flex-direction: column-reverse;
+        position: relative;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        margin-top: -80px;
+    }
+    .content-section-1 .container .content-text .col-text{
+        display: none;
+    }
+    .content-section-1 .container .content-text .col-text div{
+        font-size: 25px;
+    }
+    .content-section-1 .container .content-text .btn-col{
+        display: flex;
+        flex-direction: row;
+        gap: 60px;
+        margin-top: 60px;
+    }
+    .content-section-1 .container .content-text .btn-col button{
+        width: 180px;
+        height: 40px;
+    }
+}
+@media (max-width: 600px){
+    .content-section-1 .container{
+        margin-top: -60px;
+    }
+    .content-section-1 .container .content-text .col-text{
+        position: relative;
+        width: 100%;
+    }
+    .content-section-1 .container .content-text .btn-col{
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+    }
+}
